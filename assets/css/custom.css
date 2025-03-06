@@ -278,3 +278,7 @@ tr.center-two-side td {
 .close-modal:hover {
   color: #634c9e !important;
 }
+
+.content a.popup {
+  margin: 0 !important;
+}
