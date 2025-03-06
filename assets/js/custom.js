@@ -103,8 +103,6 @@ document.addEventListener('DOMContentLoaded', function () {
           container.style.height = maxHeight - 20 + 'px';
         });
       });
-
-      console.log(maxHeight);
     });
   }
 
@@ -123,4 +121,53 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Also run when window is resized
   window.addEventListener('resize', debouncedEqualize);
+
+  // Create modal for image zoom
+  const modal = document.createElement('div');
+  modal.className = 'image-modal';
+
+  const modalContent = document.createElement('div');
+  modalContent.className = 'modal-content';
+
+  const closeBtn = document.createElement('span');
+  closeBtn.className = 'close-modal';
+  closeBtn.innerHTML = '&times;';
+
+  const modalImg = document.createElement('img');
+
+  modalContent.appendChild(modalImg);
+  modal.appendChild(closeBtn);
+  modal.appendChild(modalContent);
+  document.body.appendChild(modal);
+
+  // Add click event to all GitHub stats images
+  githubStatsImages.forEach(function (img) {
+    img.addEventListener('click', function () {
+      modal.style.display = 'block';
+      modalImg.src = this.src;
+      document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+    });
+  });
+
+  // Close modal when clicking the close button
+  closeBtn.addEventListener('click', function () {
+    modal.style.display = 'none';
+    document.body.style.overflow = ''; // Restore scrolling
+  });
+
+  // Close modal when clicking outside the image
+  modal.addEventListener('click', function (event) {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+      document.body.style.overflow = ''; // Restore scrolling
+    }
+  });
+
+  // Close modal with Escape key
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape' && modal.style.display === 'block') {
+      modal.style.display = 'none';
+      document.body.style.overflow = ''; // Restore scrolling
+    }
+  });
 });
