@@ -101,16 +101,27 @@ a {
   position: relative !important;
   padding-left: 2.5em !important;
   margin-bottom: 0.5em !important;
-  line-height: 1.5em !important;
+  line-height: 1.6em !important;
+  min-height: 1.6em !important;
+  display: block !important;
+}
+
+/* For list items with multi-line content, ensure proper spacing */
+.emoji-list li:not(:has(.sub-list)) {
+  padding-top: 0.1em !important;
+  padding-bottom: 0.1em !important;
 }
 
 .emoji-list li .emoji-bullet {
   position: absolute !important;
   left: 0 !important;
-  top: 0.15em !important;
+  top: 0.45em !important;
+  transform: none !important;
   width: 2em !important;
   text-align: left !important;
-  font-size: 1.1em !important;
+  font-size: 0.95em !important;
+  display: inline-block !important;
+  line-height: 1.6em !important;
 }
 
 .emoji-list .sub-list {
@@ -123,16 +134,26 @@ a {
 .emoji-list .sub-list li {
   padding-left: 2.5em !important;
   margin-bottom: 0.3em !important;
+  min-height: 1.4em !important;
 }
 
 .emoji-list .sub-list li .emoji-bullet {
-  font-size: 1em !important;
+  font-size: 0.85em !important;
+  top: 0.4em !important;
+  transform: none !important;
 }
 
 /* Fix for the Galician flag image in the bullet */
 .emoji-list .sub-list li .emoji-bullet img {
   vertical-align: middle !important;
-  margin-top: -0.2em !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin: 0 !important;
+}
+
+/* For list items with nested lists, ensure proper spacing */
+.emoji-list li.has-sub-list {
+  padding-top: 0.1em !important;
 }
 
 /* Equal height for the side-by-side containers */
@@ -179,4 +200,20 @@ tr.center-two-side td {
 /* Ensure images don't overflow their containers */
 .github-stats-img {
   max-width: 100% !important;
+}
+
+/* Ensure proper spacing between text and sub-lists */
+.emoji-list > li > .sub-list {
+  margin-top: 0.3em !important;
+  width: 100% !important;
+}
+
+/* Alternative for browsers that don't support :has() */
+.emoji-list > li > .emoji-bullet {
+  top: 0.25em !important; /* Default position for all list items */
+}
+
+/* Special handling for list items with nested lists */
+.emoji-list > li.has-sub-list > .emoji-bullet {
+  top: 0.25em !important; /* Keep consistent with regular list items */
 }
