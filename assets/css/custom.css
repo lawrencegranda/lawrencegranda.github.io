@@ -1,0 +1,182 @@
+/* Custom styles to override theme defaults */
+
+* {
+  border-bottom: none !important;
+}
+
+/* Remove text decoration from all links */
+a {
+  text-decoration: none !important;
+}
+
+/* GitHub stats table styling */
+.github-stats-table {
+  background-color: transparent !important;
+  border-collapse: collapse !important;
+  border: none !important;
+}
+
+.github-stats-table td,
+.github-stats-table tr {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 5px !important;
+}
+
+/* Make sure GitHub stats images have proper background */
+.github-stats-img {
+  background-color: transparent !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Fix any CORS issues by adding a fallback background color */
+.github-stats-container {
+  background-color: #100f0f !important;
+  border-radius: 6px !important;
+  padding: 10px !important;
+  min-height: 50px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: height 0.3s ease !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Add a fallback message for when images fail to load */
+.github-stats-container::after {
+  content: '';
+  display: none;
+}
+
+.github-stats-container.loading-failed::after {
+  content: 'GitHub Stats Loading...';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #4c569e;
+  font-style: italic;
+  opacity: 0.7;
+  display: block;
+}
+
+/* Override any theme-specific table styles */
+.post-content table > tbody > tr {
+  background-color: transparent !important;
+}
+
+.post-content table > tbody > tr:nth-child(odd) {
+  background-color: transparent !important;
+}
+
+.post-content table > tbody > tr:hover {
+  background-color: transparent !important;
+}
+
+.table-wrapper {
+  margin-bottom: 0px !important;
+}
+
+.center-two-side {
+  min-height: 100px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+/* Custom emoji bullet lists */
+.emoji-list {
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.emoji-list li {
+  position: relative !important;
+  padding-left: 2.5em !important;
+  margin-bottom: 0.5em !important;
+  line-height: 1.5em !important;
+}
+
+.emoji-list li .emoji-bullet {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0.15em !important;
+  width: 2em !important;
+  text-align: left !important;
+  font-size: 1.1em !important;
+}
+
+.emoji-list .sub-list {
+  list-style-type: none !important;
+  padding-left: 2em !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.emoji-list .sub-list li {
+  padding-left: 2.5em !important;
+  margin-bottom: 0.3em !important;
+}
+
+.emoji-list .sub-list li .emoji-bullet {
+  font-size: 1em !important;
+}
+
+/* Fix for the Galician flag image in the bullet */
+.emoji-list .sub-list li .emoji-bullet img {
+  vertical-align: middle !important;
+  margin-top: -0.2em !important;
+}
+
+/* Equal height for the side-by-side containers */
+tr.center-two-side {
+  display: table-row !important;
+}
+
+tr.center-two-side td {
+  display: table-cell !important;
+  vertical-align: top !important;
+  width: 50% !important;
+  padding: 10px !important;
+  height: inherit !important; /* Ensure height is inherited from parent */
+  box-sizing: border-box !important;
+}
+
+.github-stats-container.center-two-side {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+/* Make sure images maintain aspect ratio while filling container */
+.github-stats-container.center-two-side .github-stats-img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+}
+
+/* Additional fixes for equal height containers */
+.github-stats-table table {
+  height: 100% !important;
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+/* Fix for nested tables */
+.github-stats-table td table {
+  margin-bottom: 0 !important;
+}
+
+/* Ensure images don't overflow their containers */
+.github-stats-img {
+  max-width: 100% !important;
+}
