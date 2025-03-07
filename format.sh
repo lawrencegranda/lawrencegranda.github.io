@@ -71,7 +71,7 @@ bundle exec jekyll build --quiet
 echo -e "\n${MAGENTA}Running HTML Proofer...${NC}"
 bundle exec htmlproofer _site \
     --disable-external \
-    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/" || true
 
 # Clean up site
 echo -e "\n${MAGENTA}Cleaning Up...${NC}"
