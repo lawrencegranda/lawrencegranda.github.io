@@ -1,0 +1,19 @@
+- company: "Company Name"
+  title: "Job Title"
+  period: "Jan 2022 - Present"
+  responsibilities:
+    - "Responsibility 1"
+    - "Responsibility 2"
+    - "Responsibility 3"
+  achievements:
+    - "Achievement 1"
+    - "Achievement 2"
+# Add more experience entries as needed following the same structure
+# - company: "Previous Company"
+#   title: "Previous Role"
+#   period: "Jan 2020 - Dec 2021"
+#   responsibilities:
+#     - "Responsibility A"
+#     - "Responsibility B"
+#   achievements:
+#     - "Achievement X"

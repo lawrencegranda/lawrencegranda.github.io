@@ -1,0 +1,11 @@
+- name: "Certification Name"
+  organization: "Issuing Organization"
+  date: "January 2022"
+  description: "Brief description of the certification and its relevance."
+  link: "#"
+# Add more certification entries as needed following the same structure
+# - name: "Another Certification"
+#   organization: "Another Organization"
+#   date: "June 2021"
+#   description: "Description of another certification"
+#   link: "#"

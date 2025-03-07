@@ -29,117 +29,154 @@ order: 1
 
   <div class="tab-content-container">
     <div id="education" class="tab-content active">
-        <h2>Education</h2>
-        <div class="content-card">
-            <h3>University Name</h3>
-            <p class="subtitle">Degree - Field of Study</p>
-            <p class="date">2018 - 2022</p>
-            <div class="details">
-                <h4>Relevant Coursework</h4>
-                <ul>
-                    <li>Course 1</li>
-                    <li>Course 2</li>
-                    <li>Course 3</li>
-                </ul>
-                <h4>Notable Achievements</h4>
-                <ul>
-                    <li>Achievement 1</li>
-                    <li>Achievement 2</li>
-                </ul>
-            </div>
+      <h2>Education</h2>
+      {% for edu in site.data.about.education %}
+      <div class="content-card">
+        <h3>{{ edu.institution }}</h3>
+        <p class="subtitle">{{ edu.degree }}</p>
+        <p class="date">{{ edu.period }}</p>
+        <div class="details">
+          {% if edu.coursework %}
+          <h4>Relevant Coursework</h4>
+          <ul>
+            {% for course in edu.coursework %}
+            <li>{{ course }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          
+          {% if edu.achievements %}
+          <h4>Notable Achievements</h4>
+          <ul>
+            {% for achievement in edu.achievements %}
+            <li>{{ achievement }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div>
+      </div>
+      {% endfor %}
     </div>
+
     <div id="experience" class="tab-content">
-        <h2>Experience</h2>
-        <div class="content-card">
-            <h3>Company Name</h3>
-            <p class="subtitle">Job Title</p>
-            <p class="date">Jan 2022 - Present</p>
-            <div class="details">
-                <h4>Responsibilities</h4>
-                <ul>
-                    <li>Responsibility 1</li>
-                    <li>Responsibility 2</li>
-                    <li>Responsibility 3</li>
-                </ul>
-                <h4>Key Achievements</h4>
-                <ul>
-                    <li>Achievement 1</li>
-                    <li>Achievement 2</li>
-                </ul>
-            </div>
+      <h2>Experience</h2>
+      {% for exp in site.data.about.experience %}
+      <div class="content-card">
+        <h3>{{ exp.company }}</h3>
+        <p class="subtitle">{{ exp.title }}</p>
+        <p class="date">{{ exp.period }}</p>
+        <div class="details">
+          {% if exp.responsibilities %}
+          <h4>Responsibilities</h4>
+          <ul>
+            {% for resp in exp.responsibilities %}
+            <li>{{ resp }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          
+          {% if exp.achievements %}
+          <h4>Key Achievements</h4>
+          <ul>
+            {% for achievement in exp.achievements %}
+            <li>{{ achievement }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div>
-        <!-- Add more experience entries as needed -->
+      </div>
+      {% endfor %}
     </div>
+
     <div id="projects" class="tab-content">
-        <h2>Projects</h2>
-        <div class="content-card">
-            <h3>Project Name</h3>
-            <p class="subtitle">Brief description of the project</p>
-            <div class="details">
-                <h4>Objectives</h4>
-                <p>Description of project goals and objectives.</p>
-                <h4>Technologies Used</h4>
-                <ul>
-                    <li>Technology 1</li>
-                    <li>Technology 2</li>
-                    <li>Technology 3</li>
-                </ul>
-                <h4>Links</h4>
-                <p>
-                    <a href="#" target="_blank">
-                    <i class="fab fa-github"></i> Repository </a> | <a href="#" target="_blank">
-                    <i class="fas fa-external-link-alt"></i> Live Demo </a>
-                </p>
-            </div>
+      <h2>Projects</h2>
+      {% for project in site.data.about.projects %}
+      <div class="content-card">
+        <h3>{{ project.name }}</h3>
+        <p class="subtitle">{{ project.description }}</p>
+        <div class="details">
+          {% if project.objectives %}
+          <h4>Objectives</h4>
+          <p>{{ project.objectives }}</p>
+          {% endif %}
+          
+          {% if project.technologies %}
+          <h4>Technologies Used</h4>
+          <ul>
+            {% for tech in project.technologies %}
+            <li>{{ tech }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          
+          {% if project.links %}
+          <h4>Links</h4>
+          <p>
+            {% if project.links.repository %}
+            <a href="{{ project.links.repository }}" target="_blank">
+              <i class="fab fa-github"></i> Repository
+            </a>
+            {% endif %}
+            {% if project.links.repository and project.links.demo %}
+            |
+            {% endif %}
+            {% if project.links.demo %}
+            <a href="{{ project.links.demo }}" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            {% endif %}
+          </p>
+          {% endif %}
         </div>
-        <!-- Add more project entries as needed -->
+      </div>
+      {% endfor %}
     </div>
+
     <div id="skills" class="tab-content">
-        <h2>Skills</h2>
-        <h3>Technical Skills</h3>
-        <div class="skills-container">
-            <div class="skill-card">
-                <div class="skill-name">Skill 1</div>
-                <div class="skill-level expert">Expert</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-name">Skill 2</div>
-                <div class="skill-level intermediate">Intermediate</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-name">Skill 3</div>
-                <div class="skill-level beginner">Beginner</div>
-            </div>
-            <!-- Add more skills as needed -->
+      <h2>Skills</h2>
+      
+      {% if site.data.about.skills.technical %}
+      <h3>Technical Skills</h3>
+      <div class="skills-container">
+        {% for skill in site.data.about.skills.technical %}
+        <div class="skill-card">
+          <div class="skill-name">{{ skill.name }}</div>
+          <div class="skill-level {{ skill.level }}">{{ skill.level | capitalize }}</div>
         </div>
-        <h3>Soft Skills</h3>
-        <div class="skills-container">
-            <div class="skill-card">
-                <div class="skill-name">Communication</div>
-                <div class="skill-level expert">Expert</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-name">Leadership</div>
-                <div class="skill-level intermediate">Intermediate</div>
-            </div>
-            <!-- Add more soft skills as needed -->
+        {% endfor %}
+      </div>
+      {% endif %}
+      
+      {% if site.data.about.skills.soft %}
+      <h3>Soft Skills</h3>
+      <div class="skills-container">
+        {% for skill in site.data.about.skills.soft %}
+        <div class="skill-card">
+          <div class="skill-name">{{ skill.name }}</div>
+          <div class="skill-level {{ skill.level }}">{{ skill.level | capitalize }}</div>
         </div>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
+
     <div id="certifications" class="tab-content">
-        <h2>Certifications</h2>
-        <div class="content-card">
-            <h3>Certification Name</h3>
-            <p class="subtitle">Issuing Organization</p>
-            <p class="date">Issued: January 2022</p>
-            <div class="details">
-                <p>Brief description of the certification and its relevance.</p>
-                <p>
-                    <a href="#" target="_blank">View Certificate</a>
-                </p>
-            </div>
+      <h2>Certifications</h2>
+      {% for cert in site.data.about.certifications %}
+      <div class="content-card">
+        <h3>{{ cert.name }}</h3>
+        <p class="subtitle">{{ cert.organization }}</p>
+        <p class="date">Issued: {{ cert.date }}</p>
+        <div class="details">
+          {% if cert.description %}
+          <p>{{ cert.description }}</p>
+          {% endif %}
+          {% if cert.link %}
+          <p><a href="{{ cert.link }}" target="_blank">View Certificate</a></p>
+          {% endif %}
         </div>
-        <!-- Add more certification entries as needed -->
+      </div>
+      {% endfor %}
     </div>
   </div>
 </div>

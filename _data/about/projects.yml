@@ -1,0 +1,20 @@
+- name: "Project Name"
+  description: "Brief description of the project"
+  objectives: "Description of project goals and objectives."
+  technologies:
+    - "Technology 1"
+    - "Technology 2"
+    - "Technology 3"
+  links:
+    repository: "#"
+    demo: "#"
+# Add more project entries as needed following the same structure
+# - name: "Another Project"
+#   description: "Description of another project"
+#   objectives: "Objectives for another project"
+#   technologies:
+#     - "Technology A"
+#     - "Technology B"
+#   links:
+#     repository: "#"
+#     demo: "#"
