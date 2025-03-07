@@ -74,7 +74,7 @@ order: 1
             {% endfor %}
           </ul>
           {% endif %}
-          
+
           {% if exp.achievements %}
           <h4>Key Achievements</h4>
           <ul>
@@ -99,7 +99,7 @@ order: 1
           <h4>Objectives</h4>
           <p>{{ project.objectives }}</p>
           {% endif %}
-          
+
           {% if project.technologies %}
           <h4>Technologies Used</h4>
           <ul>
@@ -108,7 +108,7 @@ order: 1
             {% endfor %}
           </ul>
           {% endif %}
-          
+
           {% if project.links %}
           <h4>Links</h4>
           <p>
@@ -134,7 +134,7 @@ order: 1
 
     <div id="skills" class="tab-content">
       <h2>Skills</h2>
-      
+
       {% if site.data.about.skills.technical %}
       <h3>Technical Skills</h3>
       <div class="skills-container">
@@ -146,7 +146,7 @@ order: 1
         {% endfor %}
       </div>
       {% endif %}
-      
+
       {% if site.data.about.skills.soft %}
       <h3>Soft Skills</h3>
       <div class="skills-container">
@@ -178,5 +178,6 @@ order: 1
       </div>
       {% endfor %}
     </div>
+
   </div>
 </div>

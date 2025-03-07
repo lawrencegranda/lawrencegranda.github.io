@@ -5,11 +5,11 @@ technical:
     level: "intermediate"
   - name: "Skill 3"
     level: "beginner"
-  # Add more technical skills as needed
+    # Add more technical skills as needed
 
 soft:
   - name: "Communication"
     level: "expert"
   - name: "Leadership"
     level: "intermediate"
-  # Add more soft skills as needed
+    # Add more soft skills as needed
