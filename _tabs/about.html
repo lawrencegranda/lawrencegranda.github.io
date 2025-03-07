@@ -4,195 +4,247 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-<link rel="stylesheet" href="/assets/css/base.css" />
-<link rel="stylesheet" href="/assets/css/about.css" />
-<script src="/assets/js/about.js" defer></script>
+<link
+    rel="stylesheet"
+    href="/assets/css/base.css"
+/>
+<link
+    rel="stylesheet"
+    href="/assets/css/about.css"
+/>
+<script
+    src="/assets/js/about.js"
+    defer
+></script>
 
 <div class="about-tabs">
-  <!-- Mobile dropdown navigation -->
-  <div class="mobile-nav">
-    <button class="dropdown-menu-toggle">
-      <span class="current-tab">Education</span>
-      <i class="fas fa-chevron-down"></i>
-    </button>
-    <div class="dropdown-menu">
-      <button class="tab-button active" data-tab="education">
-        <i class="fas fa-graduation-cap"></i>
-        Education
-      </button>
-      <button class="tab-button" data-tab="experience">
-        <i class="fas fa-briefcase"></i>
-        Experience
-      </button>
-      <button class="tab-button" data-tab="projects">
-        <i class="fas fa-code-branch"></i>
-        Projects
-      </button>
-      <button class="tab-button" data-tab="skills">
-        <i class="fas fa-tools"></i>
-        Skills
-      </button>
-    </div>
-  </div>
-
-  <!-- Desktop tab navigation -->
-  <div class="tab-navigation">
-    <button class="tab-button active" data-tab="education">
-      <i class="fas fa-graduation-cap"></i>
-      Education
-    </button>
-    <button class="tab-button" data-tab="experience">
-      <i class="fas fa-briefcase"></i>
-      Experience
-    </button>
-    <button class="tab-button" data-tab="projects">
-      <i class="fas fa-code-branch"></i>
-      Projects
-    </button>
-    <button class="tab-button" data-tab="skills">
-      <i class="fas fa-tools"></i>
-      Skills
-    </button>
-  </div>
-
-  <div class="tab-content-container">
-    <div id="education" class="tab-content active">
-      <h2>Education</h2>
-      {% for edu in site.data.about.education %}
-      <div class="content-card">
-        <h3>{{ edu.institution }}</h3>
-        <p class="subtitle">{{ edu.degree }}</p>
-        <p class="date">{{ edu.period }}</p>
-        {% if edu.coursework or edu.achievement %}
-        <div class="details">
-          {% if edu.coursework %}
-          <h4>Relevant Coursework</h4>
-          <ul>
-            {% for course in edu.coursework %}
-            <li>{{ course }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %} {% if edu.achievements %}
-          <h4>Notable Achievements</h4>
-          <ul>
-            {% for achievement in edu.achievements %}
-            <li>{{ achievement }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
+    <!-- Mobile dropdown navigation -->
+    <div class="mobile-nav">
+        <button class="dropdown-menu-toggle">
+            <span class="current-tab">Education</span>
+            <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-menu">
+            <button
+                class="tab-button active"
+                data-tab="education"
+            >
+                <i class="fas fa-graduation-cap"></i>
+                Education
+            </button>
+            <button
+                class="tab-button"
+                data-tab="experience"
+            >
+                <i class="fas fa-briefcase"></i>
+                Experience
+            </button>
+            <button
+                class="tab-button"
+                data-tab="projects"
+            >
+                <i class="fas fa-code-branch"></i>
+                Projects
+            </button>
+            <button
+                class="tab-button"
+                data-tab="skills"
+            >
+                <i class="fas fa-tools"></i>
+                Skills
+            </button>
         </div>
-        {% endif %}
-      </div>
-      {% endfor %}
     </div>
 
-    <div id="experience" class="tab-content">
-      <h2>Experience</h2>
-      {% for exp in site.data.about.experience %}
-      <div class="content-card">
-        <h3>{{ exp.company }}</h3>
-        <p class="subtitle">{{ exp.title }}</p>
-        <p class="date">{{ exp.period }}</p>
-        <div class="details">
-          {% if exp.responsibilities %}
-          <ul>
-            {% for resp in exp.responsibilities %}
-            <li>{{ resp }}</li>
+    <!-- Desktop tab navigation -->
+    <div class="tab-navigation">
+        <button
+            class="tab-button active"
+            data-tab="education"
+        >
+            <i class="fas fa-graduation-cap"></i>
+            Education
+        </button>
+        <button
+            class="tab-button"
+            data-tab="experience"
+        >
+            <i class="fas fa-briefcase"></i>
+            Experience
+        </button>
+        <button
+            class="tab-button"
+            data-tab="projects"
+        >
+            <i class="fas fa-code-branch"></i>
+            Projects
+        </button>
+        <button
+            class="tab-button"
+            data-tab="skills"
+        >
+            <i class="fas fa-tools"></i>
+            Skills
+        </button>
+    </div>
+
+    <div class="tab-content-container">
+        <div
+            id="education"
+            class="tab-content active"
+        >
+            <h2>Education</h2>
+            {% for edu in site.data.about.education %}
+            <div class="content-card">
+                <h3>{{ edu.institution }}</h3>
+                <p class="subtitle">{{ edu.degree }}</p>
+                <p class="date">{{ edu.period }}</p>
+                {% if edu.coursework or edu.achievement %}
+                <div class="details">
+                    {% if edu.coursework %}
+                    <h4>Relevant Coursework</h4>
+                    <ul>
+                        {% for course in edu.coursework %}
+                        <li>{{ course }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %} {% if edu.achievements %}
+                    <h4>Notable Achievements</h4>
+                    <ul>
+                        {% for achievement in edu.achievements %}
+                        <li>{{ achievement }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
             {% endfor %}
-          </ul>
-          {% endif %} {% if exp.achievements %}
-          <h4>Key Achievements</h4>
-          <ul>
-            {% for achievement in exp.achievements %}
-            <li>{{ achievement }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
         </div>
-      </div>
-      {% endfor %}
-    </div>
 
-    <div id="projects" class="tab-content">
-      <h2>Projects</h2>
-      {% for project in site.data.about.projects %}
-      <div class="content-card">
-        <h3>{{ project.name }}</h3>
-        <p class="subtitle">{{ project.description }}</p>
-        <div class="details">
-          {% if project.objectives %}
-          <h4>Objectives</h4>
-          <p>{{ project.objectives }}</p>
-          {% endif %} {% if project.technologies %}
-          <h4>Technologies Used</h4>
-          <ul>
-            {% for tech in project.technologies %}
-            <li>{{ tech }}</li>
+        <div
+            id="experience"
+            class="tab-content"
+        >
+            <h2>Experience</h2>
+            {% for exp in site.data.about.experience %}
+            <div class="content-card">
+                <h3>{{ exp.company }}</h3>
+                <p class="subtitle">{{ exp.title }}</p>
+                <p class="date">{{ exp.period }}</p>
+                <div class="details">
+                    {% if exp.responsibilities %}
+                    <ul>
+                        {% for resp in exp.responsibilities %}
+                        <li>{{ resp }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %} {% if exp.achievements %}
+                    <h4>Key Achievements</h4>
+                    <ul>
+                        {% for achievement in exp.achievements %}
+                        <li>{{ achievement }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
             {% endfor %}
-          </ul>
-          {% endif %} {% if project.links %}
-          <p>
-            {% if project.links.repository %}
-            <a href="{{ project.links.repository }}" target="_blank">
-              <i class="fab fa-github"></i>
-              Repository
-            </a>
-            {% endif %} {% if project.links.repository and project.links.demo %}
-            | {% endif %} {% if project.links.demo %}
-            <a href="{{ project.links.demo }}" target="_blank">
-              <i class="fas fa-external-link-alt"></i>
-              Live Demo
-            </a>
+        </div>
+
+        <div
+            id="projects"
+            class="tab-content"
+        >
+            <h2>Projects</h2>
+            {% for project in site.data.about.projects %}
+            <div class="content-card">
+                <h3>{{ project.name }}</h3>
+                <p class="subtitle">{{ project.description }}</p>
+                <div class="details">
+                    {% if project.objectives %}
+                    <h4>Objectives</h4>
+                    <p>{{ project.objectives }}</p>
+                    {% endif %} {% if project.technologies %}
+                    <h4>Technologies Used</h4>
+                    <ul>
+                        {% for tech in project.technologies %}
+                        <li>{{ tech }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %} {% if project.links %}
+                    <p>
+                        {% if project.links.repository %}
+                        <a
+                            href="{{ project.links.repository }}"
+                            target="_blank"
+                        >
+                            <i class="fab fa-github"></i>
+                            Repository
+                        </a>
+                        {% endif %} {% if project.links.repository and project.links.demo %} | {% endif %} {% if
+                        project.links.demo %}
+                        <a
+                            href="{{ project.links.demo }}"
+                            target="_blank"
+                        >
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        {% endif %}
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div
+            id="skills"
+            class="tab-content"
+        >
+            <h2>Skills</h2>
+
+            {% if site.data.about.skills.technical %}
+            <h3>Technical Skills</h3>
+            <div class="skills-container">
+                {% for skill in site.data.about.skills.technical %}
+                <div class="skill-card">
+                    <div class="skill-name">{{ skill.name }}</div>
+                    <div class="skill-level {{ skill.level }}">{{ skill.level | capitalize }}</div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %} {% if site.data.about.skills.soft %}
+            <h3>Soft Skills</h3>
+            <div class="skills-container">
+                {% for skill in site.data.about.skills.soft %}
+                <div class="skill-card">
+                    <div class="skill-name">{{ skill.name }}</div>
+                    <div class="skill-level {{ skill.level }}">{{ skill.level | capitalize }}</div>
+                </div>
+                {% endfor %}
+            </div>
             {% endif %}
-          </p>
-          {% endif %}
+
+            <h2>Certifications</h2>
+            {% for cert in site.data.about.certifications %}
+            <div class="content-card">
+                <h3>{{ cert.name }}</h3>
+                <p class="subtitle">{{ cert.organization }}</p>
+                <p class="date">Issued: {{ cert.date }}</p>
+                {% if cert.link and cert.link != "" %}
+                <p>
+                    <a
+                        href="{{ cert.link }}"
+                        target="_blank"
+                    >
+                        View Certificate
+                    </a>
+                </p>
+                {% endif %}
+            </div>
+            {% endfor %}
         </div>
-      </div>
-      {% endfor %}
     </div>
-
-    <div id="skills" class="tab-content">
-      <h2>Skills</h2>
-
-      {% if site.data.about.skills.technical %}
-      <h3>Technical Skills</h3>
-      <div class="skills-container">
-        {% for skill in site.data.about.skills.technical %}
-        <div class="skill-card">
-          <div class="skill-name">{{ skill.name }}</div>
-          <div class="skill-level {{ skill.level }}">
-            {{ skill.level | capitalize }}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-      {% endif %} {% if site.data.about.skills.soft %}
-      <h3>Soft Skills</h3>
-      <div class="skills-container">
-        {% for skill in site.data.about.skills.soft %}
-        <div class="skill-card">
-          <div class="skill-name">{{ skill.name }}</div>
-          <div class="skill-level {{ skill.level }}">
-            {{ skill.level | capitalize }}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-      {% endif %}
-
-      <h2>Certifications</h2>
-      {% for cert in site.data.about.certifications %}
-      <div class="content-card">
-        <h3>{{ cert.name }}</h3>
-        <p class="subtitle">{{ cert.organization }}</p>
-        <p class="date">Issued: {{ cert.date }}</p>
-        {% if cert.link != "" %}
-        <p>
-          <a href="{{ cert.link }}" target="_blank">View Certificate</a>
-        </p>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
 </div>

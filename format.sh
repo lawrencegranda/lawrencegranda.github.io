@@ -61,5 +61,21 @@ else
     fi
 fi
 
-# Print completion message
 echo -e "\n${GREEN}=== Formatting Complete! ===${NC}"
+
+# Build Jekyll site
+echo -e "\n${BLUE}Building Jekyll site...${NC}"
+bundle exec jekyll build --quiet
+
+# Run HTML Proofer
+echo -e "\n${BLUE}Running HTML Proofer...${NC}"
+bundle exec htmlproofer _site \
+    --disable-external \
+    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+
+# Clean up site
+echo -e "\n${BLUE}Cleaning Up...${NC}"
+bundle exec jekyll clean --quiet
+
+# Print completion message
+echo -e "\n${GREEN}=== All Done! ===${NC}"

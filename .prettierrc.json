@@ -9,7 +9,16 @@
     {
       "files": "*.html",
       "options": {
-        "htmlWhitespaceSensitivity": "ignore"
+        "htmlWhitespaceSensitivity": "ignore",
+        "printWidth": 120,
+        "tabWidth": 4,
+        "singleAttributePerLine": true
+      }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+        "tabWidth": 2
       }
     }
   ]
