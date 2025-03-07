@@ -8,7 +8,7 @@ set -e
 # Colors for output
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
-BLUE='\033[0;34m'
+MAGENTA='\033[0;35m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
@@ -23,16 +23,16 @@ run_formatters() {
     echo -e "${YELLOW}Formatting files in: ${dirs[*]}...${NC}"
     
     # Run the formatters on all directories at once
-    echo -e "${BLUE}Running Prettier...${NC}"
+    echo -e "${MAGENTA}Running Prettier...${NC}"
     npx prettier --write "{$(IFS=,; echo "${dirs[*]}")}/*.{md,html}" || true
     
-    echo -e "${BLUE}Running Prettier on index.html...${NC}"
+    echo -e "${MAGENTA}Running Prettier on index.html...${NC}"
     npx prettier --write "index.html" || true
     
-    echo -e "${BLUE}Running Markdownlint...${NC}"
+    echo -e "${MAGENTA}Running Markdownlint...${NC}"
     npx markdownlint "{$(IFS=,; echo "${dirs[*]}")}/*.md" || true
     
-    echo -e "${BLUE}Running Yamllint...${NC}"
+    echo -e "${MAGENTA}Running Yamllint...${NC}"
     poetry run yamllint "${dirs[@]}" || true
 }
 
@@ -64,17 +64,17 @@ fi
 echo -e "\n${GREEN}=== Formatting Complete! ===${NC}"
 
 # Build Jekyll site
-echo -e "\n${BLUE}Building Jekyll site...${NC}"
+echo -e "\n${MAGENTA}Building Jekyll site...${NC}"
 bundle exec jekyll build --quiet
 
 # Run HTML Proofer
-echo -e "\n${BLUE}Running HTML Proofer...${NC}"
+echo -e "\n${MAGENTA}Running HTML Proofer...${NC}"
 bundle exec htmlproofer _site \
     --disable-external \
     --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
 # Clean up site
-echo -e "\n${BLUE}Cleaning Up...${NC}"
+echo -e "\n${MAGENTA}Cleaning Up...${NC}"
 bundle exec jekyll clean --quiet
 
 # Print completion message
