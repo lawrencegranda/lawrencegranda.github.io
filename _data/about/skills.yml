@@ -1,3 +1,4 @@
+---
 technical:
   - name: "Skill 1"
     level: "expert"
@@ -13,3 +14,10 @@ soft:
   - name: "Leadership"
     level: "intermediate"
     # Add more soft skills as needed
+# Additional skills can be added following the same structure:
+# technical:
+#   - name: "New Skill"
+#     level: "expert|intermediate|beginner"
+# soft:
+#   - name: "New Soft Skill"
+#     level: "expert|intermediate|beginner"
