@@ -51,23 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Try to load images via proxy if direct loading fails
-  setTimeout(function () {
-    githubStatsImages.forEach(function (img) {
-      if (img.complete === false || img.naturalHeight === 0) {
-        // Image failed to load, try with a proxy
-        const originalSrc = img.getAttribute('src');
-        if (originalSrc && !originalSrc.includes('cors-anywhere')) {
-          img.setAttribute(
-            'src',
-            'https://cors-anywhere.herokuapp.com/' + originalSrc
-          );
-        }
-      }
-    });
-  }, 3000); // Wait 3 seconds before trying the proxy
-
-  // Function to ensure equal heights for side-by-side containers
+  // Function to equalize container heights
   function equalizeHeights() {
     const rows = document.querySelectorAll('tr.center-two-side');
 
