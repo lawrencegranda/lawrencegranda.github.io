@@ -26,6 +26,9 @@ run_formatters() {
     echo -e "${BLUE}Running Prettier...${NC}"
     npx prettier --write "{$(IFS=,; echo "${dirs[*]}")}/*.{md,html}" || true
     
+    echo -e "${BLUE}Running Prettier on index.html...${NC}"
+    npx prettier --write "index.html" || true
+    
     echo -e "${BLUE}Running Markdownlint...${NC}"
     npx markdownlint "{$(IFS=,; echo "${dirs[*]}")}/*.md" || true
     
