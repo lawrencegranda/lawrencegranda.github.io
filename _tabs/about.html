@@ -4,18 +4,9 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-<link
-    rel="stylesheet"
-    href="/assets/css/base.css"
-/>
-<link
-    rel="stylesheet"
-    href="/assets/css/about.css"
-/>
-<script
-    src="/assets/js/about.js"
-    defer
-></script>
+<link rel="stylesheet" href="/assets/css/base.css" />
+<link rel="stylesheet" href="/assets/css/about.css" />
+<script src="/assets/js/about.js" defer></script>
 
 <div class="about-tabs">
     <!-- Mobile dropdown navigation -->
@@ -25,31 +16,19 @@ order: 1
             <i class="fas fa-chevron-down"></i>
         </button>
         <div class="dropdown-menu">
-            <button
-                class="tab-button active"
-                data-tab="education"
-            >
+            <button class="tab-button active" data-tab="education">
                 <i class="fas fa-graduation-cap"></i>
                 Education
             </button>
-            <button
-                class="tab-button"
-                data-tab="experience"
-            >
+            <button class="tab-button" data-tab="experience">
                 <i class="fas fa-briefcase"></i>
                 Experience
             </button>
-            <button
-                class="tab-button"
-                data-tab="projects"
-            >
+            <button class="tab-button" data-tab="projects">
                 <i class="fas fa-code-branch"></i>
                 Projects
             </button>
-            <button
-                class="tab-button"
-                data-tab="skills"
-            >
+            <button class="tab-button" data-tab="skills">
                 <i class="fas fa-tools"></i>
                 Skills
             </button>
@@ -58,41 +37,26 @@ order: 1
 
     <!-- Desktop tab navigation -->
     <div class="tab-navigation">
-        <button
-            class="tab-button active"
-            data-tab="education"
-        >
+        <button class="tab-button active" data-tab="education">
             <i class="fas fa-graduation-cap"></i>
             Education
         </button>
-        <button
-            class="tab-button"
-            data-tab="experience"
-        >
+        <button class="tab-button" data-tab="experience">
             <i class="fas fa-briefcase"></i>
             Experience
         </button>
-        <button
-            class="tab-button"
-            data-tab="projects"
-        >
+        <button class="tab-button" data-tab="projects">
             <i class="fas fa-code-branch"></i>
             Projects
         </button>
-        <button
-            class="tab-button"
-            data-tab="skills"
-        >
+        <button class="tab-button" data-tab="skills">
             <i class="fas fa-tools"></i>
             Skills
         </button>
     </div>
 
     <div class="tab-content-container">
-        <div
-            id="education"
-            class="tab-content active"
-        >
+        <div id="education" class="tab-content active">
             <h2>Education</h2>
             {% for edu in site.data.about.education %}
             <div class="content-card">
@@ -122,10 +86,7 @@ order: 1
             {% endfor %}
         </div>
 
-        <div
-            id="experience"
-            class="tab-content"
-        >
+        <div id="experience" class="tab-content">
             <h2>Experience</h2>
             {% for exp in site.data.about.experience %}
             <div class="content-card">
@@ -152,10 +113,7 @@ order: 1
             {% endfor %}
         </div>
 
-        <div
-            id="projects"
-            class="tab-content"
-        >
+        <div id="projects" class="tab-content">
             <h2>Projects</h2>
             {% for project in site.data.about.projects %}
             <div class="content-card">
@@ -175,19 +133,13 @@ order: 1
                     {% endif %} {% if project.links %}
                     <p>
                         {% if project.links.repository %}
-                        <a
-                            href="{{ project.links.repository }}"
-                            target="_blank"
-                        >
+                        <a href="{{ project.links.repository }}" target="_blank">
                             <i class="fab fa-github"></i>
                             Repository
                         </a>
                         {% endif %} {% if project.links.repository and project.links.demo %} | {% endif %} {% if
                         project.links.demo %}
-                        <a
-                            href="{{ project.links.demo }}"
-                            target="_blank"
-                        >
+                        <a href="{{ project.links.demo }}" target="_blank">
                             <i class="fas fa-external-link-alt"></i>
                             Live Demo
                         </a>
@@ -199,10 +151,7 @@ order: 1
             {% endfor %}
         </div>
 
-        <div
-            id="skills"
-            class="tab-content"
-        >
+        <div id="skills" class="tab-content">
             <h2>Skills</h2>
 
             {% if site.data.about.skills.technical %}
@@ -235,12 +184,7 @@ order: 1
                 <p class="date">Issued: {{ cert.date }}</p>
                 {% if cert.link and cert.link != "" %}
                 <p>
-                    <a
-                        href="{{ cert.link }}"
-                        target="_blank"
-                    >
-                        View Certificate
-                    </a>
+                    <a href="{{ cert.link }}" target="_blank">View Certificate</a>
                 </p>
                 {% endif %}
             </div>
