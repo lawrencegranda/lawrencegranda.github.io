@@ -1,20 +1,15 @@
 - institution: "Cornell University"
-  degree: "Degree - Field of Study"
-  period: "2018 - 2022"
+  degree: "Bachelor of Science - Computer Science and ORIE"
+  period: "August 2023 - June 2027"
   coursework:
-    - "Course 1"
-    - "Course 2"
-    - "Course 3"
-  achievements:
-    - "Achievement 1"
-    - "Achievement 2"
-# Add more education entries as needed following the same structure
-# - institution: "Another University"
-#   degree: "Another Degree"
-#   period: "2014 - 2018"
-#   coursework:
-#     - "Course A"
-#     - "Course B"
-#   achievements:
-#     - "Achievement X"
-#     - "Achievement Y"
+    - "Computer Science"
+    - "Operations Research"
+    - "Information Engineering"
+
+- institution: "The Woodlands High School"
+  degree: "High School Diploma"
+  period: "August 2021 - May 2023"
+
+- institution: "Colegio Internacional Eirís (Spain)"
+  degree: "Secondary Education"
+  period: "March 2018 - June 2021"

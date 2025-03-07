@@ -1,19 +1,39 @@
-- company: "Company Name"
-  title: "Job Title"
-  period: "Jan 2022 - Present"
+- company: "Meta"
+  title: "Software Engineering Intern"
+  period: "May 2025 - Aug 2025"
   responsibilities:
-    - "Responsibility 1"
-    - "Responsibility 2"
-    - "Responsibility 3"
-  achievements:
-    - "Achievement 1"
-    - "Achievement 2"
-# Add more experience entries as needed following the same structure
-# - company: "Previous Company"
-#   title: "Previous Role"
-#   period: "Jan 2020 - Dec 2021"
-#   responsibilities:
-#     - "Responsibility A"
-#     - "Responsibility B"
-#   achievements:
-#     - "Achievement X"
+    - "Incoming 2025 Summer Intern at Bellevue, WA"
+
+- company: "Cornell University"
+  title: "Functional Programming Consultant - CS 3110"
+  period: "Aug 2024 - Present"
+  responsibilities:
+    - "Assist students with OCaml and functional programming in office hours"
+    - "Collaborate with instructors to develop course materials"
+    - "Conduct review sessions and provide feedback on coursework"
+
+- company: "ilummu"
+  title: "Co-Founder & CTO"
+  period: "May 2024 - Present"
+  responsibilities:
+    - "Direct web app development, managing frontend & backend using Flask & SQLAlchemy"
+    - "Develop and integrate security protocols for user authentication & data transmission"
+    - "Lead Agile development & Git-based version control"
+
+- company: "Grupo Atlante"
+  title: "AI & Software Engineering Intern"
+  period: "Jun 2024 - Aug 2024"
+  responsibilities:
+    - "Led AI development for Revit & BIM plugin optimizing store layouts"
+    - "Implemented optimizers & convolutional autoencoders"
+    - "Enhanced planning efficiency using advanced algorithms"
+    - "Reduced algorithm runtime by 80%"
+
+- company: "YouShift (Y Combinator Startup - W25)"
+  title: "Backend Engineering Intern"
+  period: "Jan 2024 - Jun 2024"
+  responsibilities:
+    - "Worked directly with Google SWE & Harvard alumni"
+    - "Developed backend for you-shift.com"
+    - "Wrote unit tests for API endpoints using Pytest, SQLAlchemy, Flask"
+    - "Implemented fair workload balancing algorithms"
