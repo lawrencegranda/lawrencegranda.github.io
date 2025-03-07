@@ -9,6 +9,33 @@ order: 1
 <script src="/assets/js/about.js" defer></script>
 
 <div class="about-tabs">
+  <!-- Mobile dropdown navigation -->
+  <div class="mobile-nav">
+    <button class="dropdown-menu-toggle">
+      <span class="current-tab">Education</span>
+      <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="dropdown-menu">
+      <button class="tab-button active" data-tab="education">
+        <i class="fas fa-graduation-cap"></i>
+        Education
+      </button>
+      <button class="tab-button" data-tab="experience">
+        <i class="fas fa-briefcase"></i>
+        Experience
+      </button>
+      <button class="tab-button" data-tab="projects">
+        <i class="fas fa-code-branch"></i>
+        Projects
+      </button>
+      <button class="tab-button" data-tab="skills">
+        <i class="fas fa-tools"></i>
+        Skills
+      </button>
+    </div>
+  </div>
+
+  <!-- Desktop tab navigation -->
   <div class="tab-navigation">
     <button class="tab-button active" data-tab="education">
       <i class="fas fa-graduation-cap"></i>
@@ -25,10 +52,6 @@ order: 1
     <button class="tab-button" data-tab="skills">
       <i class="fas fa-tools"></i>
       Skills
-    </button>
-    <button class="tab-button" data-tab="certifications">
-      <i class="fas fa-certificate"></i>
-      Certifications
     </button>
   </div>
 
@@ -156,9 +179,7 @@ order: 1
         {% endfor %}
       </div>
       {% endif %}
-    </div>
 
-    <div id="certifications" class="tab-content">
       <h2>Certifications</h2>
       {% for cert in site.data.about.certifications %}
       <div class="content-card">
