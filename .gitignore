@@ -1,13 +1,3 @@
-# Hidden files
-.*
-!.git*
-!.editorconfig
-!.nojekyll
-!.husky
-!.commitlintrc.json
-!.versionrc.json
-!.stylelintrc.json
-
 # Bundler cache
 .bundle
 vendor
