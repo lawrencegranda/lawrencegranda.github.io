@@ -186,9 +186,11 @@ order: 1
         <h3>{{ cert.name }}</h3>
         <p class="subtitle">{{ cert.organization }}</p>
         <p class="date">Issued: {{ cert.date }}</p>
+        {% if cert.link != "" %}
         <p>
           <a href="{{ cert.link }}" target="_blank">View Certificate</a>
         </p>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
