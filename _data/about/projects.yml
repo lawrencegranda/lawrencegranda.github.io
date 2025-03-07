@@ -1,20 +1,45 @@
-- name: "Project Name"
-  description: "Brief description of the project"
-  objectives: "Description of project goals and objectives."
+- name: "University Course Catalog Web App"
+  description: "Developed a Flask-based course planner for 3,800+ courses with AJAX-based search and real-time analytics"
+  objectives: "Create a comprehensive course planning system with real-time analytics and search capabilities"
   technologies:
-    - "Technology 1"
-    - "Technology 2"
-    - "Technology 3"
+    - "Flask"
+    - "AJAX"
+    - "Python"
+    - "SQL"
+    - "JavaScript"
   links:
-    repository: "#"
-    demo: "#"
-# Add more project entries as needed following the same structure
-# - name: "Another Project"
-#   description: "Description of another project"
-#   objectives: "Objectives for another project"
-#   technologies:
-#     - "Technology A"
-#     - "Technology B"
-#   links:
-#     repository: "#"
-#     demo: "#"
+    repository: "https://github.com/lawrencegranda/university-course-catalog"
+
+- name: "Color Detection and Autonomous Parking"
+  description: "Created computer vision pipeline in Java & OpenCV for autonomous parking system"
+  objectives: "Develop real-time color detection and autonomous parking capabilities using computer vision"
+  technologies:
+    - "Java"
+    - "OpenCV"
+    - "Computer Vision"
+    - "Git"
+  links:
+    repository: "https://github.com/lawrencegranda/power-play-16911"
+
+- name: "Garbage Detector"
+  description: "Built AI model with Keras & TensorFlow using uNet, achieving IoU: 0.52 and F1 Score: 0.62"
+  objectives: "Create an efficient garbage detection system using deep learning"
+  technologies:
+    - "Keras"
+    - "TensorFlow"
+    - "Python"
+    - "EfficientNetB3"
+    - "uNet"
+  links:
+    repository: "https://github.com/lawrencegranda/garbage-segmentation"
+
+- name: "SNHS Point System"
+  description: "Developed Flask-based tracking & ranking system processing 4,100+ entries annually"
+  objectives: "Replace outsourced service with an efficient in-house solution"
+  technologies:
+    - "Flask"
+    - "Python"
+    - "SQL"
+    - "JavaScript"
+  links:
+    demo: "http://lawrencegranda.me/twhssnhs"
