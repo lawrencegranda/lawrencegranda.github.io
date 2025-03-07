@@ -1,14 +1,15 @@
 ---
-title: Welcome to My Blog
+title: Hello, world!
 date: 2024-03-07 21:00:00 -0500
-categories: [General, Introduction]
-tags: [welcome, first-post]
-author: Lawrence Granda
+categories: [General]
+tags: []
+image: /assets/img/hello-world.png
+pin: true
+
+by: Lawrence Granda
 ---
 
-# Welcome to My Blog!
-
-Hello everyone! This is my first blog post, and I'm excited to share my thoughts and experiences with you. This blog will be a space where I discuss various topics including:
+Hello, world! This is my first blog post, and I'm excited to share my thoughts and experiences with you. This blog will be a space where I discuss various topics including:
 
 - Technology and Software Development
 - Personal Projects
