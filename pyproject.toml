@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lawrencegranda-github-io"
+version = "0.1.0"
+description = ""
+authors = ["Lawrence Granda Zarzuela <lawrencegranda@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lawrencegranda"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+yamllint = "^1.35.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
