@@ -63,6 +63,7 @@ order: 1
         <h3>{{ edu.institution }}</h3>
         <p class="subtitle">{{ edu.degree }}</p>
         <p class="date">{{ edu.period }}</p>
+        {% if edu.coursework or edu.achievement %}
         <div class="details">
           {% if edu.coursework %}
           <h4>Relevant Coursework</h4>
@@ -80,6 +81,7 @@ order: 1
           </ul>
           {% endif %}
         </div>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
@@ -184,15 +186,9 @@ order: 1
         <h3>{{ cert.name }}</h3>
         <p class="subtitle">{{ cert.organization }}</p>
         <p class="date">Issued: {{ cert.date }}</p>
-        <div class="details">
-          {% if cert.description %}
-          <p>{{ cert.description }}</p>
-          {% endif %} {% if cert.link %}
-          <p>
-            <a href="{{ cert.link }}" target="_blank">View Certificate</a>
-          </p>
-          {% endif %}
-        </div>
+        <p>
+          <a href="{{ cert.link }}" target="_blank">View Certificate</a>
+        </p>
       </div>
       {% endfor %}
     </div>
