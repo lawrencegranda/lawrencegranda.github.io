@@ -4,8 +4,7 @@ date: 2024-03-07 21:00:00 -0500
 categories: [General]
 tags: []
 image: /assets/img/hello-world.png
-pin: true
-
+pin: false
 by: Lawrence Granda
 ---
 
