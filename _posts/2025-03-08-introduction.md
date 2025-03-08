@@ -19,14 +19,14 @@ Here's my version of the blogging equivalent:
 ```java
 public class HelloWorld {
   public static void greetVisitors() {
-    System.out.println("Hello, World!");
-    System.out.println("Welcome to my corner of the internet.");
-    System.out.println("Where bugs are plenty and solutions... eventually found.");
+    System.out.println("Hello, World!")
+    System.out.println("Welcome to my corner of the internet.")
+    System.out.println("Where bugs are plenty and solutions... eventually found.")
 
     // This is where I'd put error handling
     // IF I HAD ANY
 
-    System.out.println("Thanks for stopping by!");
+    System.out.println("Thanks for stopping by!")
   }
 
   public static void main(String[] args) {
@@ -123,7 +123,7 @@ So here goes nothing. This is me, learning in public. Feel free to follow along 
 <!-- prettier-ignore-start -->
 > **P.S. A Test for True Engineers**
 >
-> Did you notice the missing semicolon in my Java code? You know, the one after `greetVisitors()`?
+> Did you notice the missing semicolons in my Java code?
 >
 > If you did and it bothered you to your core, congratulations! You're officially a real programmer. Welcome to the special club of people whose brains can't unsee syntax errors. We meet on Tuesdays to debate tabs versus spaces and silently judge each other's bracket styles.
 >
