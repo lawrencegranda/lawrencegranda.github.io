@@ -30,7 +30,7 @@ public class HelloWorld {
   }
 
   public static void main(String[] args) {
-    // Let's call this bad boy 😈
+    // Let's run this bad boy 😈
     greetVisitors()
   }
 }
