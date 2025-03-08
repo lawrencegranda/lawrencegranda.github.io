@@ -3,7 +3,8 @@
     {
       "files": "*.md",
       "options": {
-        "proseWrap": "always"
+        "proseWrap": "never",
+        "trailingComma": "none"
       }
     },
     {
