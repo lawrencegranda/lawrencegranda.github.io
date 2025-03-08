@@ -3,7 +3,7 @@ title: Hello, world!
 date: 2025-03-08 01:25:00 -0500
 categories: [General]
 tags: []
-image: /assets/img/hello-world.png
+image: /assets/thumbnails/hello-world.png
 pin: false
 by: Lawrence Granda
 ---
