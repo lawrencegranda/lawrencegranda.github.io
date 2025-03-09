@@ -13,7 +13,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 # List of directories to format if no argument is provided
-DIRS=("_tabs" "_data", "_layouts", "_includes", "_posts")
+DIRS=("_tabs" "_data" "_layouts" "_includes" "_posts")
 
 # Function to run formatters on all directories at once
 run_formatters() {
@@ -48,6 +48,7 @@ else
     # Format all directories together
     valid_dirs=()
     for dir in "${DIRS[@]}"; do
+        # Check if the directory exists
         if [ -d "$dir" ]; then
             valid_dirs+=("$dir")
         fi
