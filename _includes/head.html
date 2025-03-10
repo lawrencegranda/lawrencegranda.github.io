@@ -49,8 +49,28 @@
     <link rel="stylesheet" href="{{ '/assets/css/:THEME.css' | replace: ':THEME', site.theme | relative_url }}" />
 
     <!-- Icon -->
-    <link rel="shortcut icon" type="image/jpeg" href="/favicon.jpeg" />
-    <link rel="icon" type="image/jpeg" href="/favicon.jpeg" />
+    <link
+        rel="shortcut icon"
+        href="{{ '/assets/favicons/favicon.ico' | relative_url }}?v={{ site.time | date: '%s' }}"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}?v={{ site.time | date: '%s' }}"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}?v={{ site.time | date: '%s' }}"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}?v={{ site.time | date: '%s' }}"
+    />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
 
     <!-- Web Font -->
     <link rel="stylesheet" href="{{ site.data.origin[type].webfonts | relative_url }}" />
