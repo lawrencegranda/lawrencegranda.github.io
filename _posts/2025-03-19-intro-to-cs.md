@@ -12,15 +12,16 @@ Let's get one thing straight: I was supposed to be a finance bro.
 
 Not a programmer. Not an engineer.  Not someone wrestling with C code at 2 AM, questioning his life choices.
 
+You know those folks who claim they were coding in Python before they could ride a bike? The ones who boast about creating their first game at age seven? Well... that wasn't me. Not even close.
+
 I was supposed to be wearing tailored suits, throwing around words like "synergy," and passionately arguing over stock market trends.
 
-You know those folks who claim they were coding in Python before they could ride a bike? The ones who boast about creating their first game at age seven? Well... that wasn't me. Not even close.
 
 I grew up in A Coruña, Spain, where the closest thing to an algorithm I ever encountered was estate planning charts and financial models. My family talks about business the way other families talk about soccer. At the dinner table, we weren't discussing Messi's latest goal--we were debating real estate strategies and startup investments.
 
 And honestly? I loved it.
 
-Numbers made sense to me. They were clean, predictable, governed by clear rules. None of that subjective nonsense—just logic, patterns, and formulas that worked the same way every time. My kind of deal.
+Numbers made sense to me. They were clean, predictable, governed by clear rules. None of that subjective nonsense—just logic, patterns, and formulas that worked the same way every time.
 
 So naturally, I figured I'd follow the path laid out in front of me: estate planning, real estate, startups.
 
