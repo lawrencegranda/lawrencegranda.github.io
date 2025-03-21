@@ -1,6 +1,6 @@
 ---
 title: Finance bro? Engineer? Nah, Let Me Write Code Instead
-date: 2025-03-19 22:10:00
+date: 2025-03-21 05:15:00 -0500
 categories: [Personal Journey]
 tags: [Career]
 image: /assets/thumbnails/andalucia-management.jpeg
