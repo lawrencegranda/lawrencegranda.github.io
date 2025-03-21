@@ -1,6 +1,6 @@
 ---
 title: Hello, world!
-date: 2025-03-08 01:25:00 -0500
+date: 2025-03-08 01:25:00 -0400
 categories: [General]
 tags: []
 image: /assets/thumbnails/hello-world.png
