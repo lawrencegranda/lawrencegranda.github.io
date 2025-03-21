@@ -3,7 +3,7 @@ title: Finance bro? Engineer? Nah, Let Me Write Code Instead
 date: 2025-03-19 22:10:00
 categories: [Personal Journey]
 tags: [Career]
-image: /assets/thumbnails/investor-engineer-coding.png
+image: /assets/thumbnails/andalucia-management.jpeg
 pin: false
 by: Lawrence Granda
 ---
@@ -14,7 +14,7 @@ Not a programmer. Not an engineer. Not someone wrestling with assembly code at 2
 
 You know those folks who claim they were coding in Python before they could ride a bike? The ones who boast about creating their first game at age seven? Well... that wasn't me. Not even close.
 
-I grew up in A Coruña, Spain, where the closest thing to an algorithm I ever encountered was estate planning charts and financial models. My family talks about business the way other families talk about soccer. The dinner table was basically a live-action episode of *Shark Tank*, except instead of Mark Cuban, we had my father dissecting some founder's pitch deck over a plate of pulpo.
+I grew up in A Coruña, Spain, where the closest thing to an algorithm I ever encountered was estate planning charts and financial models. My family talks about business the way other families talk about soccer. The dinner table was basically a live-action episode of _Shark Tank_, except instead of Mark Cuban, we had my father dissecting some founder's pitch deck over a plate of pulpo.
 
 And honestly? I loved it.
 
@@ -24,9 +24,12 @@ At eleven, I was out here with a spreadsheet trying to figure out if I could tur
 
 I still vividly remember the day my dad took me to my first business leadership conference. I was 11 years old, dressed in a way-too-formal suit, sitting in a room of 200+ adults in their 40s and 50s. For three straight hours, I watched these professionals argue over economic forecasts, interest rates, and market trends like they were discussing the Champions League final.
 
-Now, I might regret showing this picture, but here goes nothing. Imagine a tiny version of me, looking like a miniature CEO, trying to make sense of all the business jargon.
+Now, I might regret showing these pictures, but here goes nothing. Imagine a tiny version of me, looking like a miniature CEO, trying to make sense of all the business jargon.
 
-**[Insert Image: Me as a kid in a suit at the conference]**
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/thumbnails/mabs2016.jpeg" alt="Me as a kid in a suit at another conference">
+    <img src="/assets/thumbnails/andalucia-management.jpeg" alt="Me as a kid in a suit at the conference">
+</div>
 
 Did I understand half of what they were saying? Not even close.  
 Did I love every second of it? Absolutely.
@@ -65,16 +68,15 @@ Culture shock? Slightly. But the biggest surprise wasn’t the oversized everyth
 
 ## The High School Spark
 
-See, in Spain, my academic path was pretty much set. But in the U.S.? Electives. Options. A choose-your-own-adventure moment. So naturally, I picked *Intro to Computer Science* because, well, it sounded better than "Agricultural Science."
+See, in Spain, my academic path was pretty much set. But in the U.S.? Electives. Options. A choose-your-own-adventure moment. So naturally, I picked _Intro to Computer Science_ because, well, it sounded better than "Agricultural Science."
 
 And like that, with no fanfare, no dramatic music, and certainly no life plan -- coding entered the chat.
 
 <!-- prettier-ignore-start -->
->  **Top Tip:**
->  Some of life's best decisions happen completely by accident.
+> **Top Tip:**
+> Some of life's best decisions happen completely by accident.
 {: .prompt-tip}
 <!-- prettier-ignore-end -->
-
 
 The first time I wrote a program -- just a simple "Hello, World!" -- I felt something click. This was different. It was a small taste of what was to come.
 
@@ -82,7 +84,7 @@ Around the same time, I joined the robotics club, initially drawn by my aerospac
 
 I was good at it (I mean, really good). But here's the problem: it was painfully tedious.
 
-Imagine spending six painstaking hours designing the perfect part -- every measurement aligned, every angle precise. You're a digital Michelangelo. And then, with one innocent click? *Boom*. Software crash. Hours gone. Your soul leaves your body.
+Imagine spending six painstaking hours designing the perfect part -- every measurement aligned, every angle precise. You're a digital Michelangelo. And then, with one innocent click? _Boom_. Software crash. Hours gone. Your soul leaves your body.
 
 Welcome to CAD.
 
@@ -111,6 +113,7 @@ It was a gut punch. For a few months I questioned everything. Was I even good at
 But then I did something that changed my mindset: I took Harvard's legendary CS50x. No grades. No pressure. Just me, a laptop, and an increasingly concerning amount of late-night coding. That course rekindled everything I loved about programming. I built things. I learned. I pushed through.
 
 And then I got into Cornell.
+
 - Strong CS program? ✔️
 - Ivy League? ✔️
 - Financial aid? ✔️
@@ -119,8 +122,7 @@ It was the perfect choice.
 
 ## Finding the Art in Code
 
-For the longest time, I thought programming was just about rules, logic, and efficiency.
-But along the way, I realized that coding isn't just logic -- it's art. Algorithms are poetry. A well-structured function is as satisfying as a perfectly composed melody. The best software? It's not just functional. It's elegant. Beautiful, even.
+For the longest time, I thought programming was just about rules, logic, and efficiency. But along the way, I realized that coding isn't just logic -- it's art. Algorithms are poetry. A well-structured function is as satisfying as a perfectly composed melody. The best software? It's not just functional. It's elegant. Beautiful, even.
 
 I remember writing my first real-world program that mattered -- a tool to automate a tedious workflow for the Science NHS chapter at my high school. Fully in the zone, coding until 3 AM, completely losing track of time. That was it. That was flow.
 
