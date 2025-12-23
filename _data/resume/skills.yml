@@ -1,38 +1,70 @@
 ---
-technical:
+programming_languages:
   - name: "Python"
+    libraries:
+      [
+        "Flask",
+        "Pandas",
+        "Keras",
+        "TensorFlow",
+        "PyTest",
+        "Scikit-learn",
+        "Shapely",
+        "PyTorch",
+        "SciPy",
+        "Matplotlib",
+      ]
     level: "advanced"
   - name: "OCaml"
     level: "advanced"
   - name: "Java"
     level: "advanced"
-  - name: "Algorithms"
-    level: "advanced"
-  - name: "Mathematics"
-    level: "advanced"
-  - name: "Functional Programming"
-    level: "advanced"
+  - name: "Kotlin"
+    level: "intermediate"
+  - name: "TypeScript"
+    level: "intermediate"
   - name: "JavaScript"
     level: "intermediate"
   - name: "HTML/CSS"
     level: "intermediate"
   - name: "SQL"
     level: "intermediate"
-  - name: "TypeScript"
-    level: "beginner"
-  - name: "Bash"
+  - name: "PHP"
     level: "beginner"
   - name: "C"
     level: "beginner"
 
+software:
+  - "VS Code"
+  - "IntelliJ"
+  - "Android Studio"
+  - "Jupyter"
+  - "Google Colab"
+  - "GitHub"
+  - "Cursor"
+  - "ChatGPT"
+  - "Gemini"
+  - "G Suite"
+  - "Microsoft Office"
+  - "Fusion 360"
+  - "AutoCAD"
+
+languages:
+  - name: "English"
+    level: "Bilingual"
+  - name: "Spanish"
+    level: "Native"
+  - name: "Galician"
+    level: "Bilingual"
+  - name: "Portuguese"
+    level: "Working proficiency"
+
 soft:
   - name: "Adaptability"
     level: "advanced"
-  - name: "Multilingual Communication"
+  - name: "Communication and Public Speaking"
     level: "advanced"
-  - name: "Problem Solving"
-    level: "advanced"
-  - name: "Public Speaking"
+  - name: "Critical Thinking and Problem-Solving"
     level: "advanced"
   - name: "Team Leadership"
     level: "advanced"

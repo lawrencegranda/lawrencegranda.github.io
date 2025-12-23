@@ -1,14 +1,31 @@
 - institution: "Cornell University"
-  degree: "Bachelor of Science - Computer Science and ORIE"
+  degree: "Bachelor of Science in Computer Science"
+  college: "College of Engineering"
   period: "August 2023 - June 2027"
+  gpa: "4.164/4.00"
   coursework:
-    - "Computer Science"
-    - "Operations Research"
-    - "Information Engineering"
+    - "Object-Oriented Programming"
+    - "Analysis ofAlgorithms"
+    - "Optimization"
+    - "Algorithmic Game Theory"
+    - "Machine Learning"
+    - "Artificial Intelligence"
+    - "Calculus"
+
+- institution: "San Telmo Business School"
+  degree: "Senior Management Program for Leading Companies (One Module)"
+  period: "July 2023"
+  highlights:
+    - "Applied the case study method to dissect strategic decisions of renowned companies like Nestlé, Santander, Eleser, and Ametel"
+    - "Acknowledged as the program's youngest student"
 
 - institution: "The Woodlands High School"
   degree: "High School Diploma"
   period: "August 2021 - May 2023"
+  gpa: "4.0/4.0"
+  tests:
+    - "SAT: 800/800 Math, 750/800 EBRW"
+    - "TOEFL: 112/120"
 
 - institution: "Colegio Internacional Eirís (Spain)"
   degree: "Secondary Education"

@@ -1,45 +1,116 @@
-- name: "University Course Catalog Web App"
-  description: "Developed a Flask-based course planner for 3,800+ courses with AJAX-based search and real-time analytics"
-  objectives: "Create a comprehensive course planning system with real-time analytics and search capabilities"
+- name: "Fyndz -- Thrift Store Discovery & Reservation App"
+  description: "Designed in Figma with a team of 4 and built full-stack with React Native/TypeScript and Firebase. Deployed on Expo and AppStore"
+  period: "May 2025 - Present"
+  technologies:
+    - "React Native"
+    - "TypeScript"
+    - "Firebase"
+    - "Expo"
+  highlights:
+    - "Developed real-time notifications for drops and reservations using Expo, significantly boosting user engagement and retention"
+    - "Built discovery map where thrift stores can claim their location and users explore drops, increasing visibility and local engagement"
+  links:
+    demo: "https://www.instagram.com/fyndz.app"
+
+- name: "ilummu -- Ed-tech Platform"
+  description: "Directed the design and implementation of a web platform as CTO, managing frontend and backend development"
+  period: "Jun 2024 - May 2025"
   technologies:
     - "Flask"
+    - "SQLAlchemy"
+    - "Python"
+  highlights:
+    - "Developed and integrated security protocols for secure data transmission, user authentication, and file handling, boosting reliability"
+    - "Coordinated a team of 4 developers employing Agile methodologies and Git to ensure consistent and timely project delivery"
+  links:
+    repository: "https://github.com/lawrencegranda/ilummu/"
+
+- name: "University Course Catalog Web App"
+  description: "Developed a Flask web app to optimize course information accessibility for 3800+ courses, streamlining the course selection process"
+  period: "Feb 2023 - Jul 2023"
+  technologies:
+    - "Flask"
+    - "Pandas"
     - "AJAX"
     - "Python"
     - "SQL"
     - "JavaScript"
+  highlights:
+    - "Utilized Pandas for efficient processing of JSON course data and implemented real-time search and course planning through AJAX"
+    - "Employed statistical analysis to display course statistics and data analytics such as average grades, and top-performing professors"
   links:
     repository: "https://github.com/lawrencegranda/university-course-catalog"
 
 - name: "Color Detection and Autonomous Parking"
-  description: "Created computer vision pipeline in Java & OpenCV for autonomous parking system"
-  objectives: "Develop real-time color detection and autonomous parking capabilities using computer vision"
+  description: "Engineered an image processing pipeline using OpenCV and Java, accurately pinpointing the designated parking location for the robot"
+  period: "Oct 2022 - Apr 2023"
   technologies:
     - "Java"
     - "OpenCV"
     - "Computer Vision"
-    - "Git"
+  highlights:
+    - "Implemented HUE-based color segmentation algorithms to analyze real-time camera frames, ensuring swift analysis and low latency"
+    - "Contributed to a GitHub project in a 10-member team, leveraging version control and collaborative workflows to optimize efficiency"
   links:
     repository: "https://github.com/lawrencegranda/power-play-16911"
 
 - name: "Garbage Detector"
-  description: "Built AI model with Keras & TensorFlow using uNet, achieving IoU: 0.52 and F1 Score: 0.62"
-  objectives: "Create an efficient garbage detection system using deep learning"
+  description: "Developed an image segmentation AI model in Python using Keras and TensorFlow, employing a uNet architecture"
+  period: "May 2022 - Jul 2022"
   technologies:
     - "Keras"
     - "TensorFlow"
     - "Python"
     - "EfficientNetB3"
     - "uNet"
+  highlights:
+    - "Reduced training resources by ~65% by integrating a pre-trained EfficientNetB3 backbone model, fine-tuned on the ImageNet dataset"
+    - "Achieved great performance with an IoU score of 0.52 and an F1 score of 0.62 over testing data, indicating fair and accurate detection"
   links:
     repository: "https://github.com/lawrencegranda/garbage-segmentation"
 
 - name: "SNHS Point System"
-  description: "Developed Flask-based tracking & ranking system processing 4,100+ entries annually"
-  objectives: "Replace outsourced service with an efficient in-house solution"
+  description: "Pioneered the development of a tracking and ranking site using Flask, HTML/CSS, and JavaScript"
+  period: "Mar 2022 - Aug 2022"
   technologies:
     - "Flask"
-    - "Python"
-    - "SQL"
+    - "Google AppScript"
+    - "Google Sheets"
     - "JavaScript"
+    - "HTML/CSS"
+  highlights:
+    - "Built a custom dataflow infrastructure utilizing Google AppScript, Google Sheets, and Google Forms, replacing an outsourced service"
+    - "Processed over 4,100 data entries annually, and the transition to an in-house system resulted in savings of over $350 per year in fees"
   links:
-    demo: "https://dev.lawrencegranda.com/twhssnhs/"
+    demo: "https://dev.lawrencegranda.com/twhssnhs"
+
+- name: "Function Analyzer"
+  description: "Implemented Bisection and Newton's methods to find real roots of functions, providing a tool for solving quantitative problems"
+  period: "Nov 2021 - Jun 2022"
+  technologies:
+    - "JavaScript"
+    - "Java"
+    - "Java Swing"
+    - "HTML/CSS"
+  highlights:
+    - "Launched a user-friendly, responsive one-page website with JavaScript and HTML/CSS"
+    - "Created a Java application with an interactive GUI using Java Swing, catering to users seeking offline quantitative analysis capabilities"
+  links:
+    demo: "https://analyzer.lawrencegranda.me/"
+    repository: "https://github.com/lawrencegranda/function-analyzer-web"
+
+- name: "Housing Prices Prediction"
+  description: "Leveraged data science libraries including RandomForest, TensorFlow, and Keras to build ML models to predict housing prices"
+  period: "Dec 2021 - Jan 2022"
+  technologies:
+    - "Python"
+    - "TensorFlow"
+    - "Keras"
+    - "Pandas"
+    - "Scikit-learn"
+    - "RandomForest"
+  highlights:
+    - "Utilized Pandas and Scikit-learn to streamline data processing, normalization, and feature engineering, improving accuracy"
+    - "Demonstrated impressive results with an average deviation of $27,891, showcasing the project's potential for real estate market research"
+  links:
+    repository: "https://github.com/lawrencegranda/housing-prices-prediction"
