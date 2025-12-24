@@ -1,19 +1,6 @@
 ---
 programming_languages:
   - name: "Python"
-    libraries:
-      [
-        "Flask",
-        "Pandas",
-        "Keras",
-        "TensorFlow",
-        "PyTest",
-        "Scikit-learn",
-        "Shapely",
-        "PyTorch",
-        "SciPy",
-        "Matplotlib",
-      ]
     level: "advanced"
   - name: "OCaml"
     level: "advanced"
