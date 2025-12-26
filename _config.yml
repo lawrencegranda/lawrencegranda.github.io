@@ -20,7 +20,7 @@ timezone: America/New_York
 
 title: Lawrence Granda # the main title
 
-tagline: CS and ORIE @ Cornell University # it will display as the subtitle
+tagline: CS @ Cornell University # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Personal website and blog of Lawrence Granda, Computer Science and Operations Research student at Cornell University.
