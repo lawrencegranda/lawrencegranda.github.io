@@ -1,9 +1,9 @@
 ---
-title: The Bellevue Algorithm: How I Optimized My Summer at Meta
+title: How I Optimized My Summer at Meta
 date: 2025-10-16 00:00:00 -0400
 categories: [Career]
 tags: [Internship, Meta, Software Engineering]
-image: 
+image: /assets/thumbnails/meta-intern.png
 pin: false
 by: Lawrence Granda
 ---
