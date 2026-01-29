@@ -1,4 +1,16 @@
 - company: "Meta"
+  title: "Returning Software Engineering Intern"
+  period: "Expected May 2026 - Aug 2026"
+
+- company: "Cornell University, CS 2770"
+  title: "Computational Sustainability TA"
+  period: "Jan 2026 - May 2026"
+  responsibilities:
+    - "Guide around 100 students in computational topics, including resource allocation, graph optimization, and network flows"
+    - "Develop and refine assignments and exams covering linear programming, networks, and AI, to assess understanding of algorithms"
+    - "Grade assignments in a timely manner, providing feedback and offering office hours to address learning challenges"
+
+- company: "Meta"
   title: "Software Engineering Intern, Signal Growth: Cloudbridge Team"
   period: "May 2025 - Aug 2025"
   responsibilities:

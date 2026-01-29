@@ -36,6 +36,14 @@ order: 2
                 <i class="fas fa-certificate"></i>
                 Certificates
             </button>
+            <button class="tab-button" data-tab="volunteer">
+                <i class="fas fa-hands-helping"></i>
+                Volunteer
+            </button>
+            <button class="tab-button" data-tab="other">
+                <i class="fas fa-star"></i>
+                Other
+            </button>
         </div>
     </div>
 
@@ -46,6 +54,8 @@ order: 2
         <button class="tab-button" data-tab="projects">Projects</button>
         <button class="tab-button" data-tab="skills">Skills</button>
         <button class="tab-button" data-tab="certifications">Certificates</button>
+        <button class="tab-button" data-tab="volunteer">Volunteer</button>
+        <button class="tab-button" data-tab="other">Other</button>
     </div>
 
     <div class="tab-content-container">
@@ -369,6 +379,74 @@ order: 2
                 </div>
                 {% endfor %}
             </div>
+        </div>
+
+        <!-- ==================== VOLUNTEER TAB ==================== -->
+        <div id="volunteer" class="tab-content">
+            <h2>
+                <i class="fas fa-hands-helping"></i>
+                Volunteer Experience
+            </h2>
+            {% for vol in site.data.resume.volunteer %}
+            <div class="content-card animate-on-scroll">
+                <div class="card-header">
+                    <div class="card-title-group">
+                        <h3>{{ vol.organization }}</h3>
+                        <p class="subtitle">{{ vol.role }}</p>
+                    </div>
+                    <div class="card-meta">
+                        <span class="date">
+                            <i class="fas fa-calendar-alt"></i>
+                            {{ vol.period }}
+                        </span>
+                    </div>
+                </div>
+
+                {% if vol.responsibilities %}
+                <div class="details">
+                    <ul class="responsibility-list">
+                        {% for resp in vol.responsibilities %}
+                        <li>{{ resp }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- ==================== OTHER EXPERIENCE TAB ==================== -->
+        <div id="other" class="tab-content">
+            <h2>
+                <i class="fas fa-star"></i>
+                Other Experience
+            </h2>
+            {% for other in site.data.resume.other_experience %}
+            <div class="content-card animate-on-scroll">
+                <div class="card-header">
+                    <div class="card-title-group">
+                        <h3>{{ other.organization }}</h3>
+                        <p class="subtitle">{{ other.role }}</p>
+                    </div>
+                    <div class="card-meta">
+                        <span class="date">
+                            <i class="fas fa-calendar-alt"></i>
+                            {{ other.period }}
+                        </span>
+                    </div>
+                </div>
+
+                {% if other.responsibilities %}
+                <div class="details">
+                    <ul class="responsibility-list">
+                        {% for resp in other.responsibilities %}
+                        <li>{{ resp }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
