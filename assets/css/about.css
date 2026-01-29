@@ -641,7 +641,9 @@ h2 i {
 }
 
 /* ----- Small screens & tablet sidebar overlap ----- */
-@media (max-width: 600px), (min-width: 850px) and (max-width: 900px) {
+@media (max-width: 830px),
+  (min-width: 850px) and (max-width: 1110px),
+  (min-width: 1200px) and (max-width: 1420px) {
   /* Navigation */
   .tab-navigation {
     display: none;
