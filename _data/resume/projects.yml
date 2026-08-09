@@ -1,6 +1,20 @@
+- name: "Buzz -- Campus Brand & Org Marketplace"
+  description: "Built a full-stack campus marketplace connecting brands with student orgs for campaign drops, applications, and Instagram tracking"
+  period: "May 2026 - Present"
+  technologies:
+    - "React"
+    - "TypeScript"
+    - "FastAPI"
+    - "Postgres"
+  highlights:
+    - "Implemented JWT auth with Instagram OAuth, role-gated org/brand/admin portals, and admin impersonation on Postgres API"
+    - "Led ~65% of commits across a ~60k LOC React/TS + FastAPI monorepo with OpenAPI-typed clients, Alembic migrations & email"
+  links:
+    demo: "https://www.bringthebuzzover.com/"
+
 - name: "Fyndz -- Thrift Store Discovery & Reservation App"
   description: "Designed in Figma with a team of 4 and built full-stack with React Native/TypeScript and Firebase. Deployed on Expo and AppStore"
-  period: "May 2025 - Present"
+  period: "May 2025 - Sep 2025"
   technologies:
     - "React Native"
     - "TypeScript"

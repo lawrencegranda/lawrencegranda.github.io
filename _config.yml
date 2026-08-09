@@ -20,14 +20,14 @@ timezone: America/New_York
 
 title: Lawrence Granda # the main title
 
-tagline: CS @ Cornell University # it will display as the subtitle
+tagline: CS & ORIE M.Eng @ Cornell · Production GenAI # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Personal website and blog of Lawrence Granda, Computer Science and Operations Research student at Cornell University.
+  CS + Early Admit ORIE M.Eng at Cornell. Building production GenAI and data infrastructure.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://lawrencegranda.github.io"
+url: "https://www.lawrencegranda.com"
 
 github:
   username: lawrencegranda # change to your GitHub username

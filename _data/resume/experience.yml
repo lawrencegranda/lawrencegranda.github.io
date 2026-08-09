@@ -1,6 +1,11 @@
 - company: "Meta"
-  title: "Returning Software Engineering Intern"
-  period: "Expected May 2026 - Aug 2026"
+  title: "Software Engineering Intern (Returning) · AI + Data Infra"
+  period: "May 2026 - Aug 2026"
+  responsibilities:
+    - "Shipped GenAI agents that generate, validate, and maintain structured records from unstructured rules, synced to live automation"
+    - "Lifted generation success ~57%→~94% via retrieval-based context enrichment and prompt work; gated backfill of ~1,200 records"
+    - "Built dual-layer quality eval (deterministic checks + LLM semantic judge) and a fail-closed drift detector across multiple source types"
+    - "Shipped rate-limit-aware async batch inference with kill-switch and Monte Carlo throughput limits; ~60K net LOC, zero rollbacks"
 
 - company: "Cornell University, CS 2770"
   title: "Computational Sustainability TA"
@@ -11,12 +16,12 @@
     - "Grade assignments in a timely manner, providing feedback and offering office hours to address learning challenges"
 
 - company: "Meta"
-  title: "Software Engineering Intern, Signal Growth: Cloudbridge Team"
+  title: "Software Engineering Intern · Signal Growth"
   period: "May 2025 - Aug 2025"
   responsibilities:
     - "Delivered a new ads feature with backend Kotlin computation, metrics visualization, and scalable data aggregation with Prometheus"
     - "Integrated new testing framework for React, developed first UI unit tests, wrote new frontend testing guidelines used by the team"
-    - "Created new GraphQL and Vert.x endpoints and built cron job for async metrics collection. Load tested feature on 20M+ event volume"
+    - "Created new GraphQL and Vert.x endpoints and built cron job for async metrics collection. Load tested on 20M+ event volume"
     - "Top 40 in Monetization pillar (10k+ engineers) and top 5 in Signal Growth for number of commits over the duration of the internship"
 
 - company: "Cornell University, CS 3110"

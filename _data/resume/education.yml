@@ -1,16 +1,24 @@
 - institution: "Cornell University"
   degree: "Bachelor of Science in Computer Science"
   college: "College of Engineering"
-  period: "August 2023 - December 2026"
+  period: "August 2023 - May 2027"
   gpa: "4.154/4.00"
   coursework:
     - "Object-Oriented Programming"
-    - "Analysis of Algorithms"
+    - "Algorithms"
     - "Optimization"
-    - "Algorithmic Game Theory"
+    - "Game Theory"
     - "Machine Learning"
     - "Artificial Intelligence"
     - "Calculus"
+
+- institution: "Cornell University"
+  degree: "M.Eng in ORIE (Early Admit)"
+  college: "College of Engineering"
+  period: "August 2026 - May 2027"
+  highlights:
+    - "Engineering Dean's Fellowship (full tuition)"
+    - "M.Eng Student Ambassador"
 
 - institution: "San Telmo Business School"
   degree: "Senior Management Program for Leading Companies (One Module)"
