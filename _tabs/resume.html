@@ -277,6 +277,21 @@ order: 2
             </div>
             {% endif %}
 
+            <!-- AI & Agents -->
+            {% if site.data.resume.skills.ai_agents %}
+            <div class="skills-section">
+                <h3>
+                    <i class="fas fa-robot"></i>
+                    AI &amp; Agents
+                </h3>
+                <div class="software-grid">
+                    {% for tool in site.data.resume.skills.ai_agents %}
+                    <span class="software-tag">{{ tool }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
             <!-- Software & Tools -->
             {% if site.data.resume.skills.software %}
             <div class="skills-section">
