@@ -1,5 +1,5 @@
 ---
-title: The Power of Showing Up
+title: The Things I Almost Said No To
 date: 2026-02-06 07:27:00 -0400
 categories: [Personal Journey]
 tags: [Cornell, Community, Networking, Mentorship]
@@ -14,7 +14,9 @@ Not to make friends. Not to "find myself." Not to join a salsa dancing club.
 
 (Spoiler: I did all of those things anyway.)
 
-I arrived with a plan. A solitary, outcome-driven, finance-bro-optimized plan. Grind leetcode. Crush the classes. Land the internship. Rinse and repeat until I emerged as a fully-formed software engineer ready to conquer Big Tech.
+I arrived with a plan. A solitary, outcome-driven plan. Grind leetcode. Crush the classes. Land the internship. Rinse and repeat until I emerged as a fully-formed software engineer ready to conquer Big Tech.
+
+(If you've read [Finance bro? Engineer? Nah, Let Me Write Code Instead](/posts/intro-to-cs/), you already know how I got here.)
 
 It was a good plan. Clean. Measurable. Individual.
 
@@ -48,7 +50,7 @@ Spain's lesson about shared spaces? Quietly forgotten.
 
 ## The Cornell Arrival (Armed with the Wrong Map)
 
-I showed up to Cornell in fall 2022 with that Texas mindset fully loaded.
+I showed up to Cornell in fall 2023 with that Texas mindset fully loaded.
 
 Here's what I thought would happen: I'd lock in on academics. Get really good at Computer Science. Build an impressive resume. Network strategically at career fairs. Land a top internship. Graduate with options.
 
@@ -56,17 +58,13 @@ Notice what's missing from that plan? _People_. Real people. Not networking cont
 
 I wasn't trying to be antisocial. I genuinely thought that's how you succeeded in tech. Individual excellence. Grind culture. The whole "10x engineer" mythology.
 
-Turns out, the best work I'd do at Cornell -- the things that actually mattered -- wouldn't happen in lecture halls or late-night solo coding sessions.
+Turns out, the best work I'd do at Cornell -- the things that actually mattered -- wouldn't happen in lecture halls or late-night solo coding sessions. It would happen in the spaces where we all figured it out together.
 
-They'd happen at Second Dam. On a salsa dance floor. In the gym. Over shared failures.
-
-The most important things I built at Cornell aren't programs. They're the spaces where we all figured it out together.
-
-## Second Dam and the Study Partner Who Saved Me
+## A Swimming Trip and a Study Partner
 
 Orientation week. Everyone's awkward. Everyone's pretending they're not awkward.
 
-Someone suggests a trip to Second Dam -- this swimming spot about fifteen minutes from campus. I almost didn't go. Too busy "optimizing" my schedule, planning out my classes, getting ahead.
+Someone suggests a trip to Treman State Park -- this swimming spot about fifteen minutes from campus. I almost didn't go. Too busy "optimizing" my schedule, planning out my classes, getting ahead.
 
 But I went. And I met Joyce.
 
@@ -74,19 +72,21 @@ I don't remember what we talked about that first day. Probably the usual stuff -
 
 We ended up in the same classes that semester. Then the next semester. Then every semester after that.
 
-Joyce and I have taken classes together for my entire Cornell career. We became Teaching Assistants together. We've debugged each other's code at 2 AM when nothing makes sense and everything's broken. We're now tackling grad school applications together.
+Joyce and I have taken classes together for my entire Cornell career. We became Teaching Assistants together. We're now tackling grad school applications together.
+
+There was a night during the CS 2110 final project -- some OOP assignment we'd nicknamed McDiver -- when we pushed it to the very last minute. We were at Crossings Café, our usual spot on north campus by the bubble tea station, running on no sleep and less patience. Git stopped cooperating, and neither of us had it in us to figure out why. So we split up, each finished our half alone, and when merging still wouldn't work, we just emailed our code to each other and pasted it together by hand. Not our finest hour, programming-elegance-wise. It worked anyway.
 
 Here's the thing about Joyce: she made mutual accountability feel natural. Not forced. Not transactional. We just... showed up for each other.
 
-Neither of us missed morning lectures. Not because we're naturally morning people (we're definitely not), but because we knew the other person would be there. When concepts got dense -- and they always got dense -- we'd trade off roles. One day I'd be teaching, the next day I'd be the confused one asking all the questions.
+Neither of us missed _that_ many morning lectures. Not because we were morning people, but because we knew the other person would be there. When concepts got dense -- and they always got dense -- we'd trade off roles. One day I'd be teaching, the next day I'd be the confused one asking all the questions.
 
-She didn't just become my study partner. She saved me from the individual trajectory I'd planned. She redirected me toward something better: collective success.
+She didn't just become my study partner. She redirected me toward something better: collective success.
 
 And it all started because I said yes to a spontaneous swimming trip during orientation week.
 
 <!-- prettier-ignore-start -->
 > **The Pattern Emerges:**
-> The best opportunities in college don't come from strategic planning. They come from saying yes to random invitations from people you barely know.
+> The best study partnerships aren't built on shared ambition. They're built on showing up for each other on the days you don't feel like it.
 {: .prompt-tip}
 <!-- prettier-ignore-end -->
 
@@ -112,7 +112,7 @@ The more you show up -- to things, to places, to experiences outside your comfor
 
 Pa'lante introduced me to people I never would have met otherwise. People from different majors, different backgrounds, different trajectories. The conversations after practice were often better than the dancing itself.
 
-Chris taught me something finance-bro me had forgotten: life has an explore vs. exploit trade-off, and I'd been way too heavy on exploit mode.
+Chris taught me something finance-bro me had forgotten: life has an explore vs. exploit trade-off, and I'd basically forgotten explore mode existed.
 
 Sometimes the "inefficient" choice is actually the highest-leverage move.
 
@@ -120,13 +120,13 @@ Sometimes the "inefficient" choice is actually the highest-leverage move.
 
 By sophomore year, I'd found another unexpected community: the gym.
 
-I started going to Teagle (Cornell's gym) regularly. Weightlifting. Calisthenics. Basic stuff. But the consistency mattered. Same time. Same place. Same faces.
+I started going to Noyes (Cornell's gym) regularly. Weightlifting. Calisthenics. Basic stuff. But the consistency mattered. Same time. Same place. Same faces.
 
-Here's something I learned: hobbies act as filters for finding the strongest teams.
+Here's something I learned: hobbies are how you find your people.
 
-The people who showed up at 7 AM to lift? They were a different breed. Not "better" than anyone else. Just... driven. The kind of people who do hard things because hard things are worth doing.
+The people who showed up at 7 AM to lift? Not "better" than anyone else. Just... consistent. The kind of people who do hard things because hard things are worth doing.
 
-We bonded over the mats not just because of fitness, but because we shared something deeper: a belief that self-improvement is a daily practice, not a destination.
+We bonded between sets not just because of fitness, but because we shared something deeper: a belief that self-improvement is a daily practice, not a destination.
 
 And because we all came from such different backgrounds -- different majors, different career paths, different life experiences -- our conversations turned into these deep explorations of philosophy, career strategy, and what actually matters.
 
@@ -172,7 +172,7 @@ Around the same time, I met Hansel through Pa'lante. Turns out he also loved ear
 
 Then came Zain. Met him through mutual friends. His technical curiosity was infectious. Every conversation turned into a deep dive into some concept or framework.
 
-The three of them -- Gabriel, Hansel, Zain -- were all enrolled in many of the same classes. They naturally formed a study group. And I just... became part of the orbit.
+The three of them -- Gabriel, Hansel, Zain -- kept ending up in the same classes. They naturally formed a study group. And I just... became part of the orbit.
 
 We'd eat together. Train together. Debug code together. The line between "mentor" and "friend" blurred so fast I didn't even notice it happening.
 
@@ -182,7 +182,7 @@ And then one day, Zain pitched an idea: "We should start something."
 
 ## Fyndz: The Startup That Failed Successfully
 
-The idea was Fyndz. A platform to help students discover local events and connect with communities on campus.
+The idea was Fyndz. A platform to help people discover local thrift and vintage stores, reserve items, and share community finds.
 
 Was it a good idea? At the time, we thought so.
 
@@ -192,7 +192,7 @@ Did we know what we were doing? Absolutely not.
 
 We built it anyway.
 
-For months, we worked on Fyndz. Late nights. Weekend sprints. The whole startup grind. We learned React. We built APIs. We designed user flows. We pitched to anyone who would listen.
+For months, we worked on Fyndz. Late nights. Weekend sprints. The whole startup grind. We learned React Native. We built APIs. We designed user flows. We pitched to anyone who would listen.
 
 It didn't work.
 
@@ -200,39 +200,27 @@ Not in a dramatic flameout way. Just in a quiet "this isn't gaining traction and
 
 We could have been devastated. We could have seen it as a failure.
 
-Instead, we saw it for what it was: the best possible outcome.
+It wasn't the outcome we wanted. But it wasn't wasted either.
 
-The venture didn't survive. But the resilience we built in that failure? _That_ was the real prize.
+The venture didn't survive. What stuck was what we built along the way: how to start something from scratch, how to work as a team under pressure, how to disagree constructively, how to fail and keep showing up the next day.
 
-We learned how to build something from scratch. How to work as a team under pressure. How to disagree constructively. How to fail and keep showing up the next day.
+And honestly? Watching what happened next mattered more than the venture itself.
 
-And honestly? Watching what happened next was worth more than any successful exit could have been.
-
-Hansel landed an offer at Jane Street. Zain's heading to Bloomberg. Gabriel recently interviewed with Y Combinator for his new startup.
+Hansel landed an offer at Jane Street. Zain landed one at Bloomberg. Gabriel got into Y Combinator with a different startup.
 
 They didn't need me to succeed. They were always going to be exceptional.
 
 But I got to watch it happen. I got to be part of their journey. And that? That's the kind of success that actually matters.
 
-## What I Got Wrong About Success
-
-Here's what I thought success looked like when I arrived at Cornell: individual achievement. Clean metrics. Impressive resume lines. Climbing the ladder faster than everyone else.
-
-Here's what I learned success actually looks like: collective growth. Shared struggles. Helping someone else climb while they help you. Building infrastructure for everyone to thrive.
-
-I came to Cornell to master Computer Science. To learn algorithms and data structures and system design.
-
-I did learn those things. But the most important lesson wasn't technical.
-
-It was this: the best work happens in community. Not in isolation.
-
-The informal networks matter more than the formal ones. The late-night study sessions. The post-workout conversations. The spontaneous trips to swimming holes. The failed startups that teach you more than the successful ones.
-
-Leadership isn't about being the smartest person in the room. It's not about having all the answers. It's about building the spaces where everyone can contribute their best work.
-
-It's about showing up. Consistently. For yourself and for others.
-
 ## Full Circle
+
+Here's what I thought success looked like when I showed up to Cornell: individual achievement. Clean metrics. Impressive resume lines. Climbing the ladder faster than everyone else.
+
+Here's what I actually learned: collective growth. Shared struggles. Helping someone else climb while they help you.
+
+I came to Cornell to master Computer Science -- algorithms, data structures, system design. I did learn those things. But the most important lesson wasn't technical.
+
+The informal networks mattered more than the formal ones. The late-night study sessions. The post-workout conversations. The spontaneous trip to a swimming hole. The failed startup that taught me more than a successful one probably would have.
 
 Spain taught me that progress happens in shared spaces.
 
@@ -240,20 +228,20 @@ Texas made me forget.
 
 Cornell reminded me.
 
-I didn't come to Cornell to build a community. I came to build a career. But it turns out those two things aren't separate -- they're the same thing.
+I didn't come to Cornell to build a community. I came to build a career. I'd optimized everything except the one variable that actually mattered.
 
-The people I met at Second Dam, on the dance floor, in the gym, at random events I almost didn't attend? They didn't distract me from my goals. They _became_ my goals.
+The people I met at Treman State Park, on the dance floor, in the gym, at random events I almost didn't attend? They weren't a distraction from the plan. They were the piece I'd left out of it.
 
 Joyce, Chris, Marc, Gabriel, Hansel, Zain -- and dozens of others I haven't mentioned. They're not networking contacts. They're not resume bullets. They're the reason Cornell mattered.
 
 The most important things I built at Cornell aren't programs. They're the relationships. The spaces. The infrastructure of mutual support.
 
-And here's the wild part: it all started because I said yes. To a trip to Second Dam. To a salsa class. To early morning gym sessions. To conversations with strangers. To mentoring someone when I barely knew what I was doing myself.
+And here's the wild part: it all started because I said yes. To a trip to Treman State Park. To a salsa class. To early morning gym sessions. To conversations with strangers. To mentoring someone when I barely knew what I was doing myself.
 
 <!-- prettier-ignore-start -->
 > **The Real Lesson:**
 > Your best opportunities won't come from your five-year plan. They'll come from the random Tuesday when you say yes to something that makes no strategic sense. Show up anyway. The people you meet there might change everything.
-{: .prompt-warning}
+{: .prompt-tip}
 <!-- prettier-ignore-end -->
 
 So if you're reading this as a student, here's my advice: throw out your optimization plan. Or at least, optimize for the right things.
@@ -264,10 +252,10 @@ The technical skills matter. The algorithms and frameworks and best practices al
 
 But the people matter more.
 
-Spain knew this all along. It just took me four years at Cornell to remember.
+Spain knew this all along. It just took me two and a half years at Cornell to remember.
 
 ---
 
-_If you're at Cornell (or anywhere, really) and you're reading this -- hey. Show up. Say yes to the random invitation. Go to Second Dam. Join the weird club. Talk to the person at the gym. The best parts of your college experience are probably sitting in the stuff you almost said no to._
+_If you're at Cornell (or anywhere, really) and you're reading this -- hey. Show up. Say yes to the random invitation. Go to Treman State Park. Join the weird club. Talk to the person at the gym. The best parts of your college experience are probably sitting in the stuff you almost said no to._
 
 _See you out there._
