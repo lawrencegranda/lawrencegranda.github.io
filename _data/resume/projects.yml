@@ -110,7 +110,7 @@
     - "Launched a user-friendly, responsive one-page website with JavaScript and HTML/CSS"
     - "Created a Java application with an interactive GUI using Java Swing, catering to users seeking offline quantitative analysis capabilities"
   links:
-    demo: "https://analyzer.lawrencegranda.me/"
+    demo: "https://dev.lawrencegranda.com/analyzer/"
     repository: "https://github.com/lawrencegranda/function-analyzer-web"
 
 - name: "Housing Prices Prediction"
