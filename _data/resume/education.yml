@@ -1,6 +1,5 @@
 - institution: "Cornell University"
-  degree: "M.Eng in ORIE (Early Admit)"
-  college: "College of Engineering"
+  degree: "M.Eng in Operations Research and Information Engineering"
   period: "August 2026 - May 2027"
   highlights:
     - "Engineering Dean's Fellowship (full tuition)"
@@ -8,13 +7,16 @@
 
 - institution: "Cornell University"
   degree: "Bachelor of Science in Computer Science"
-  college: "College of Engineering"
+  college: "David A. Duffield College of Engineering"
   period: "August 2023 - December 2026"
   gpa: "4.154/4.00"
   coursework:
     - "Object-Oriented Programming"
     - "Algorithms"
     - "Optimization"
+    - "Linear Algebra"
+    - "Statistics"
+    - "Multivariable Calculus"
     - "Game Theory"
     - "Machine Learning"
     - "Artificial Intelligence"
@@ -34,6 +36,13 @@
   tests:
     - "SAT: 800/800 Math, 750/800 EBRW"
     - "TOEFL: 112/120"
+  coursework:
+    - "Engineering Design"
+    - "Scientific Research"
+    - "AP Physics C"
+    - "AP Calculus"
+    - "AP Computer Science"
+    - "AP Macroeconomics"
 
 - institution: "Colegio Internacional Eirís (Spain)"
   degree: "Secondary Education"
