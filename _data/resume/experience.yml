@@ -16,12 +16,12 @@
     - "Grade assignments in a timely manner, providing feedback and offering office hours to address learning challenges"
 
 - company: "Meta"
-  title: "Software Engineering Intern · Signal Growth"
+  title: "Software Engineering Intern · Signal Growth (Cloudbridge)"
   period: "May 2025 - Aug 2025"
   responsibilities:
-    - "Delivered a new ads feature with backend Kotlin computation, metrics visualization, and scalable data aggregation with Prometheus"
+    - "Built multi-signal health scoring and monitoring for Signal Gateway pipelines, with Kotlin/Vert.x backend and Prometheus metrics"
     - "Integrated new testing framework for React, developed first UI unit tests, wrote new frontend testing guidelines used by the team"
-    - "Created new GraphQL and Vert.x endpoints and built cron job for async metrics collection. Load tested on 20M+ event volume"
+    - "Shipped GraphQL and Vert.x endpoints plus a cron job for async metrics history; load-tested at 16M–20M+ events with staged rollout"
     - "Top 40 in Monetization pillar (10k+ engineers) and top 5 in Signal Growth for number of commits over the duration of the internship"
 
 - company: "Cornell University, CS 3110"
