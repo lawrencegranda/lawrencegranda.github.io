@@ -1,8 +1,9 @@
 ---
 title: "First Ascent: Four Days at Bending Spoons in Milan"
-date: 2026-10-31 18:00:00 -0400
+date: 2026-11-01 10:00:00 -0500
 categories: [Career]
 tags: [First Ascent, Bending Spoons, Hackathon, Software Engineering, Milan]
+image: /assets/thumbnails/first-ascent-milan.jpg
 pin: false
 by: Lawrence Granda
 ---
@@ -65,7 +66,7 @@ Winning the challenge felt great. The whole team was wonderful to work with unde
 
 ## Wrapping Up
 
-And just to cap off the travel coincidences: on the final flight from JFK back to Ithaca, another Spaniard sat right next to me! This time from Madrid. Out of all the seats on those regional flights, bookending the trip like that was pretty funny.
+And just to cap off the travel coincidences: on the final flight from JFK back to Ithaca, another Spaniard sat right next to me. This time from Madrid. Out of all the seats on those regional flights, bookending the trip like that was pretty funny.
 
 By Sunday night, I was back in Ithaca, getting ready for the week ahead and catching up on problem sets for my classes.
 
