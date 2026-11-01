@@ -8,6 +8,8 @@
   --site-color: var(--site-title-color);
   --text-light: #e0e0e0;
   --text-dark: #100f0f;
+  --tag-bg-color: rgba(21, 21, 21, 0.8);
+  --border-color: rgba(255, 255, 255, 0.1);
 
   /* Animation Variables */
   --transition-speed: 0.3s;

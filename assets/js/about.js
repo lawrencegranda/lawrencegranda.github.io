@@ -7,17 +7,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Tab switching functionality
   function switchTab(button) {
+    const tabId = button.getAttribute('data-tab');
+
     // Remove active class from all buttons
     tabButtons.forEach((btn) => btn.classList.remove('active'));
 
-    // Add active class to clicked button
-    button.classList.add('active');
+    // Add active class to ALL buttons with the same data-tab (syncs mobile & desktop)
+    tabButtons.forEach((btn) => {
+      if (btn.getAttribute('data-tab') === tabId) {
+        btn.classList.add('active');
+      }
+    });
 
     // Hide all tab contents
     tabContents.forEach((content) => content.classList.remove('active'));
 
     // Show the corresponding tab content
-    const tabId = button.getAttribute('data-tab');
     document.getElementById(tabId).classList.add('active');
 
     // Update dropdown text if it exists
